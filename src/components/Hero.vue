@@ -38,7 +38,7 @@
 import { ref, onMounted } from 'vue';
 import { animate, spring, inView } from 'motion';
 
-const description = `Olá ! me chamo arthur nunes é sou um desenvolvedor backend com experiência em criação e 
+const description = `Olá ! me chamo arthur nunes e sou um desenvolvedor backend com experiência em criação e 
 otimização de aplicações web, com conhecimento em design de API's e gerenciamento de banco de dados relacionais.
 Também tenho certa familiariadade com frontend para aplicações SPA`;
 
