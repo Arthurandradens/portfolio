@@ -1,7 +1,7 @@
 <template>
             <div :key="project.id" class="mb-8 flex flex-wrap lg:justify-center">
                 <div class="w-full lg:w-1/4">
-                    <img :src="getImageUrl(project.image)"
+                    <img src="{{getImageUrl(project.image)}}"
                      width="150px" 
                      height="150px" 
                      :alt="project.title"
