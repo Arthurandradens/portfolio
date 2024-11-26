@@ -1,11 +1,15 @@
 <template>
-            <div :key="project.id" class="mb-8 flex flex-wrap lg:justify-center">
+            <div :key="project.id" class="mb-8 flex flex-wrap lg:justify-around">
                 <div class="w-full lg:w-1/4">
-                    <img src="{{getImageUrl(project.image)}}"
-                     width="150px" 
-                     height="150px" 
-                     :alt="project.title"
-                     class="mb-6 rounded">
+                    <a :href="project.domain">
+                        <img 
+                            :src="getImageUrl(`/${project.image}`)"
+                            width="300" 
+                            height="auto" 
+                            :alt="project.title"
+                            class="mb-6 rounded"
+                        >
+                    </a>
                 </div>
                 <div class="w-full max-w-xl lg:w-3/4">
                     <h6 class="mb-2 font-semibold">{{ project.title }}</h6>
@@ -23,6 +27,7 @@
 const props = defineProps(['project'])
 
 const getImageUrl = (imageUrl) => {
+    console.log(imageUrl)
   return new URL(`${imageUrl}`, import.meta.url).href; 
 };
 </script>
