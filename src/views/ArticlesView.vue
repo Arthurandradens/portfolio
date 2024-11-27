@@ -35,7 +35,7 @@ import { ref } from 'vue';
     },
     {
       id: 3,
-      title: 'Guia SIEPEX ??',
+      title: 'Guia SIEPEX ',
       fileName: 'siepex',
       description:'Passo a Passo do desenvolvimento do portfólio com html e css',
       date: 'Nov 27, 2024',
