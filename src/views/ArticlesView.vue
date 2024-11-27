@@ -33,6 +33,15 @@ import { ref } from 'vue';
       datetime: '2024-10-13',
       category: 'Estrutura de dados'
     },
+    {
+      id: 3,
+      title: 'Guia SIEPEX ??',
+      fileName: 'siepex',
+      description:'Passo a Passo do desenvolvimento do portfólio com html e css',
+      date: 'Nov 27, 2024',
+      datetime: '2024-11-27',
+      category: 'HTML & CSS'
+    },
   ])
 
 
